@@ -18,12 +18,15 @@
 
  
 .input {
-     color: white;
      font-size: 15px;
-     background-color: rgb(53, 50, 50);
+     /*background-color: rgb(53, 50, 50);*/
+     background: radial-gradient(
+        circle, 
+        rgb(30, 35, 32),
+        rgb(43, 43, 42)); 
      width: 640px;
      height: 40px;
-     border: 1px solid gray;
+     border: 1px solid rgb(82, 80, 80);
      border-radius: 20px;
      padding-left: 25px;
 }
