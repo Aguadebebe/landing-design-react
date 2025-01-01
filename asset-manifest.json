@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/landing-design-react/static/css/main.0ef19d9f.css",
+    "main.css": "/landing-design-react/static/css/main.fb10da34.css",
     "main.js": "/landing-design-react/static/js/main.c6815357.js",
     "index.html": "/landing-design-react/index.html",
-    "main.0ef19d9f.css.map": "/landing-design-react/static/css/main.0ef19d9f.css.map",
+    "main.fb10da34.css.map": "/landing-design-react/static/css/main.fb10da34.css.map",
     "main.c6815357.js.map": "/landing-design-react/static/js/main.c6815357.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ef19d9f.css",
+    "static/css/main.fb10da34.css",
     "static/js/main.c6815357.js"
   ]
 }
