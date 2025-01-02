@@ -7,12 +7,12 @@
 
 .logo-text {
     position: relative;
-    bottom: 20px;
+    top: 18px;
     font-style: italic;
     font-weight: 700;
     color: white;
     font-size: 25px;
-    left: 23px;
+    left: 380px;
     
 
     }
@@ -20,7 +20,7 @@
     .logo {
         position: relative;
         top: 20px;
-        margin-left: 198px;
+        margin-left: 170px;
         width: 20px;
         height: 20px;
         background-color:antiquewhite;
@@ -42,7 +42,7 @@
     .nav {
         position: relative;
         bottom: 5px;
-        left: 40vw;
+        left: 45vw;
 
     }
     
@@ -122,3 +122,284 @@
     }
 
      
+
+   /* @media (max-width: 844px) {
+             .header-container {
+                display: flex;
+                height: 100px;
+                width: 100vw;
+                background-color: rgb(15, 14, 14);
+        }
+        .logo-text {
+            position: relative;
+            bottom: 20px;
+            font-style: italic;
+            font-weight: 700;
+            color: white;
+            font-size: 22px;
+            left: 20px;
+     }
+     .logo {
+        position: relative;
+        top: 18px;
+        margin-left: 10px;
+        width: 15px;
+        height: 15px;
+        background-color:antiquewhite;
+        border: 1px solid white;
+    }
+
+    .logo:before {
+       content: "";
+       position: absolute;
+       top: 5px;
+       width: 0;
+       height: 0;
+       border-left: 8px solid transparent;
+       border-right: 8px solid transparent;
+       border-bottom: 11px solid gray;
+
+    }    
+    .nav {
+        position: relative;
+        bottom: 3px;
+        left: 47vw;
+
+    }
+    
+    .nav-learn {
+        position: relative;
+        right: 10px;
+        bottom: 5px;
+        align-items: center;
+        background-color:rgb(31, 30, 30);
+        color: gray;
+        font-size: 9px;
+        width: 50px;
+        height: 30px;
+        padding: 1px 30px;
+        border: 0px solid gray;
+        border-radius: 15%;
+        cursor: pointer;
+    }
+    .nav-new {
+        position: relative;
+        background-color:rgb(31, 30, 30);
+        color: gray;
+        font-size: 9px;
+        text-align: left;
+        width: 0px;
+        height: 0px;
+        margin-top: 20px;
+        margin: 5px;
+        padding: 5px 35px;
+        border: 0px solid gray;
+        border-radius: 15%;
+        cursor: pointer;
+    }
+    .nav-pricing {
+        position: relative;
+        background-color:rgb(31, 30, 30);
+        color: gray;
+        text-align: center;
+        font-size: 9px;
+        width: 30px;
+        height: 35px;
+        margin-top: 20px;
+        padding: 5px 15px;
+        border: 0px solid gray;
+        border-radius: 15%;
+        cursor: pointer;
+    }
+    .nav-blog {
+        position: relative;
+        background-color:rgb(31, 30, 30);
+        color: gray;
+        font-size: 9px;
+        width: 30px;
+        height: 35px;
+        margin-top: 20px;
+        margin: 5px;
+        padding: 5px 20px;
+        border: 0px solid gray;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+    .nav-sign-in {
+        position: relative;
+        background-color:rgb(31, 30, 30);
+        color: rgb(196, 189, 189);
+        align-items: center;
+        font-size: 9px;
+        width: 30px;
+        height: 10px;
+        margin-top: 20px;
+        padding: 5px 35px;
+        border: 1px solid rgb(87, 85, 85);
+        border-radius: 15%;
+        cursor: pointer;
+    }
+
+}
+     
+     @media (max-width: 667px) {
+         .header-container {
+            display: flex;
+            height: 80px;
+            width: 100vw;
+            background-color: rgb(15, 14, 14);
+        }      
+        
+     }*/ 
+
+
+     /*.header-container {
+        display: flex;
+        height: 80px;
+        width: 100vw;
+        background-color: rgb(15, 14, 14);
+    }
+    
+    .logo-text {
+        position: relative;
+        bottom: 20px;
+        font-style: italic;
+        font-weight: 700;
+        color: white;
+        font-size: 25px;
+        left: 23px;
+    }
+    
+    .logo {
+        position: relative;
+        top: 20px;
+        margin-left: 198px;
+        width: 20px;
+        height: 20px;
+        background-color: antiquewhite;
+        border: 1px solid white;
+    }
+    
+    .logo:before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid gray;
+    }
+    
+    .nav {
+        position: relative;
+        bottom: 5px;
+        left: 40vw;
+    }
+    
+    .nav-learn,
+    .nav-new,
+    .nav-pricing,
+    .nav-blog,
+    .nav-sign-in {
+        position: relative;
+        background-color: rgb(31, 30, 30);
+        color: gray;
+        font-size: 15px;
+        height: 35px;
+        border: 0px solid gray;
+        border-radius: 15%;
+        cursor: pointer;
+    }
+    
+    .nav-learn {
+        align-items: center;
+        width: 100px;
+        padding: 1px 30px;
+    }
+    
+    .nav-new {
+        text-align: left;
+        width: 155px;
+        margin: 5px;
+        padding: 5px 35px;
+    }
+    
+    .nav-pricing {
+        text-align: center;
+        width: 90px;
+        padding: 5px 15px;
+    }
+    
+    .nav-blog {
+        width: 70px;
+        margin: 5px;
+        padding: 5px 20px;
+        border-radius: 20%;
+    }
+    
+    .nav-sign-in {
+        color: rgb(196, 189, 189);
+        width: 120px;
+        height: 38px;
+        padding: 5px 35px;
+        border: 1px solid rgb(87, 85, 85);
+    }*/
+    
+    @media (max-width: 844px) {
+        .header-container {
+            height: 100px;
+        }
+        .logo-text {
+            font-size: 22px;
+            left: 20px;
+        }
+        .logo {
+            top: 21px;
+            margin-left: -160px;
+            width: 15px;
+            height: 15px;
+        }
+        .logo:before {
+            top: 5px;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 11px solid gray;
+        }
+        .nav {
+            bottom: 3px;
+            left: 47vw;
+        }
+        .nav-learn,
+        .nav-new,
+        .nav-pricing,
+        .nav-blog,
+        .nav-sign-in {
+            font-size: 9px;
+        }
+        .nav-learn {
+            width: 50px;
+            padding: 1px 30px;
+        }
+        .nav-new {
+            width: 0;
+            height: 0;
+            padding: 5px 35px;
+        }
+        .nav-pricing {
+            width: 30px;
+            padding: 5px 15px;
+        }
+        .nav-blog {
+            width: 30px;
+            padding: 5px 20px;
+        }
+        .nav-sign-in {
+            width: 30px;
+            height: 10px;
+            padding: 5px 35px;
+        }
+    }
+    
+     
+    

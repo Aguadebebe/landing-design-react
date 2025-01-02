@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "./App.css";
 import Header from "./Comps.js/Header.js";
 import MainPage from "./Comps.js/MainPage.js";
 
